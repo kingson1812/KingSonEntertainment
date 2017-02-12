@@ -1,0 +1,49 @@
+html
+{
+  font-family: 'Pangolin';
+  src:url('../font/Pangolin/Pangolin-Regular.ttf') format('truetype');
+}
+#header
+{
+  width: 100%;
+  height: 50px;
+  background: #004546;
+  color: #ffffff;
+  text-align: center;
+  margin: 0 0 auto 0;
+}
+
+#body
+{
+  width: 100%;
+  display: flex;
+}
+
+#left
+{
+  text-align: left;
+  float: left;
+  width: 200px;
+  min-height: 800px;
+  background: #006248;
+}
+
+#midNright
+{
+  display: inline-block;
+  background: #009467;
+  width: 100%;
+  min-height: 800px;
+}
+
+#bottom
+{
+  position:relative;
+  width: 100%;
+  height: 94px;
+  left:0px;
+  bottom:0px;
+  background:#004950;
+  color: #ffffff;
+  text-align: center;
+}
