@@ -3,14 +3,49 @@ html
   font-family: 'Pangolin';
   src:url('../font/Pangolin/Pangolin-Regular.ttf') format('truetype');
 }
+
 #header
 {
+  display: flex;
   width: 100%;
-  height: 50px;
-  background: #004546;
+  height: 120px;
+  background: #ffffff;
   color: #ffffff;
   text-align: center;
   margin: 0 0 auto 0;
+}
+
+#lefthead
+{
+  float: left;
+  min-width: 200px;
+  max-width: 350px;
+  background: #fc5a44;
+  height: 100%;
+}
+
+#righthead
+{
+  display: inline-block;
+  background: #ff9467;
+  width: 100%;
+  min-height: 800px;
+}
+
+#upperrighthead
+{
+  display: flex;
+  background: #8c7f7d;
+  height: 50%;
+  width: 100%;
+}
+
+#lowerrighthead
+{
+  display: flex;
+  background: #8ddf7d;
+  height: 50%;
+  width: 100%;
 }
 
 #body
@@ -23,7 +58,7 @@ html
 {
   text-align: left;
   float: left;
-  width: 200px;
+  min-width: 200px;
   min-height: 800px;
   background: #006248;
 }
@@ -34,6 +69,24 @@ html
   background: #009467;
   width: 100%;
   min-height: 800px;
+}
+
+#left-menu-item
+{
+  width: 100%;
+  min-height: 50px;
+  border-style: solid;
+  border-width: 1px;
+  border-left-width: 4px;
+  background: #cca123;
+}
+
+#left-menu-control
+{
+  background: transparent;
+  min-height: 50px;
+  width: 100%;
+  border-style: none;
 }
 
 #bottom
