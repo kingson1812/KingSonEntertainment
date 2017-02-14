@@ -1,7 +1,9 @@
-html
+html, body
 {
   font-family: 'Pangolin';
   src:url('../font/Pangolin/Pangolin-Regular.ttf') format('truetype');
+  width: 100%;
+  height: 100%;
 }
 
 #header
